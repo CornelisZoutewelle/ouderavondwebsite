@@ -1,0 +1,55 @@
+section{
+    padding: 20px;
+    height: auto;
+    background-color: #0f2b22;
+}
+
+.hero{
+    padding: 20px;
+    height: auto;
+    background-color: #004630;
+}
+.villain{
+    padding: 20px;
+    height: auto;
+    background-color: #004630;
+}
+
+h2{
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #004630 ;
+  }
+  
+  .flex-container > div {
+    width: 50%;
+  }
+
+  .flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0f2b22 ;
+  }
+  
+  .flex-container2 > div {
+    width: 50%;
+  }
+
+  .button {
+    background-color: #dbff4a;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+  }

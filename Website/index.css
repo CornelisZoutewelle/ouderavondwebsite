@@ -88,6 +88,12 @@ nav img{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.sticky{
+    position: sticky;
+    top: 0px;
+}
+
 .text-box{
     width: 90%;
     color: whitesmoke;
@@ -197,14 +203,14 @@ h1{
 
 /*----- Footer -----*/
 
-.footer{
+footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     position: relative;
     background-color: #006445;
 }
-.footer img{
+footer img{
    width: 175px;
    margin-top: 7px;
    margin-left: 100px;
@@ -223,7 +229,7 @@ h1{
 .footer-links ul li a{
     color: whitesmoke;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
 }
 .copyright{
     margin-left: 20%;
