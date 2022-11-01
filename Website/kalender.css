@@ -3,8 +3,11 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-color: #004630;
+}
 .header{
-    min-height: 60vh;
+    min-height: 25vh;
     width: 100%;
     background-color: #004630;
     background-position: center;
@@ -88,77 +91,61 @@ nav img{
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.canvas-head{
-    width: 90%;
-    color: whitesmoke;
-    position: absolute;
-    margin-top: 50px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-}
-.canvas-head h1{
-    font-size: 62px;
-}
-.canvas-head p{
-    margin: 10px 0 40px;
-    font-size: 25px;
-    color: whitesmoke;
-}
-
-/*----- canvas Information -----*/
-
-.canvas-col{
-    color: whitesmoke;
-    background-color: #0F2B22;
-    padding: 35px;
-}
-.canvas-col h2{
-    max-width: 50%;
-    font-size: 30px;
-}
-.canvas-col h3{
-    max-width: 50%;
-    font-size: 20px;
-    margin-top: 18px;
-}
-.canvas-col p{
-    max-width: 50%;
-    margin-top: 15px;
-    font-size: 18px;
-}
-.canvas-col ul{
-    margin-left: 25px;
-    margin-bottom: 20px;
-}
-
-/*----- Canvas Website Link -----*/
-
-.canvas-link{
-    color: whitesmoke;
+.achtergrond{
     background-color: #004630;
-    padding: 35px;
 }
-.canvas-link h2{
-    max-width: 50%;
-    font-size: 30px;
+
+/*----- Kalender Informatie -----*/
+
+.kalender-container{
+    max-width: 800px;
+    margin: 0 auto;
 }
-.canvas-link p{
-    max-width: 50%;
-    margin-top: 15px;
-    font-size: 18px;
+.kalender-container h3.jaar{
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: center;
+    border-bottom: 3px solid #101010;
 }
-.canvas-btn{
-    cursor: pointer;
-    display: inline-block;
-    text-decoration: none;
-    color: #101010;
+.kalender-container .event{
+    box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+    display: flex;
+    border-radius: 8px;
+    margin: 32px 0;
+}
+.event-links{
     background-color: #DBFF4A;
-    margin-top: 15px;
-    padding: .5em 1.25em;
-    border-radius: .25em;
+    min-width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #101010;
+    padding: 8px 48px;
     font-weight: bold;
+    text-align: center;
+    border-radius: 8px 0 0 8px;
+}
+.event-left .dag{
+    font-size: 56px;
+}
+.event-left .maand{
+    font-size: 50px;
+}
+.event-rechts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0F2B22;
+    border-radius: 0 8px 8px 0;
+    padding: 0 24px;
+}
+.event-rechts h3.event-titel{
+    font-size: 25px;
+    margin: 24px 0 10px 0;
+    color: whitesmoke;
+}
+.event-beschrijving{
+    color: whitesmoke;
 }
 
 /*----- Footer -----*/

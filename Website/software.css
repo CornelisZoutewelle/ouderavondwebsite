@@ -120,7 +120,7 @@ main{
 
 .office-info{
     color: whitesmoke;
-    background-image: url(assets/bsa.png);
+    background-image: url(assets/office365.png);
     background-size: cover;
     padding: 2rem 0 0;
     max-width: 80ch;
@@ -130,8 +130,8 @@ main{
 }
 
 .office-content{
-    padding: 2.15em;
-    background: linear-gradient(hsl(0 0% 0% / 0), hsl(0 0% 0% / 0.3), hsl(0 0% 0% / 1));
+    padding: 3.8em;
+    background: linear-gradient(hsl(0 0% 0% / 0), hsl(0 0% 0% / 0.5), hsl(0 0% 0% / 1));
 }
 
 .office-title{
@@ -166,7 +166,7 @@ main{
 
 .vsc-info{
     color: whitesmoke;
-    background-image: url(assets/bsa.png);
+    background-image: url(assets/vsc.png);
     background-size: cover;
     padding: 2rem 0 0;
     max-width: 80ch;
@@ -176,8 +176,8 @@ main{
 }
 
 .vsc-content{
-    padding: 3.7em;
-    background: linear-gradient(hsl(0 0% 0% / 0), hsl(0 0% 0% / 0.3), hsl(0 0% 0% / 1));
+    padding: 3.8em;
+    background: linear-gradient(hsl(0 0% 0% / 0), hsl(0 0% 0% / 0.5), hsl(0 0% 0% / 1));
 }
 
 .vsc-title{
@@ -212,7 +212,7 @@ main{
 
 .edu-info{
     color: whitesmoke;
-    background-image: url(assets/bsa.png);
+    background-image: url(assets/eduarte2.png);
     background-size: cover;
     padding: 2rem 0 0;
     max-width: 80ch;
@@ -224,7 +224,7 @@ main{
 
 .edu-content{
     padding: 4.5em;
-    background: linear-gradient(hsl(0 0% 0% / 0), hsl(0 0% 0% / 0.3), hsl(0 0% 0% / 1));
+    background: linear-gradient(hsl(0 0% 0% / 0), hsl(0 0% 0% / 0.5), hsl(0 0% 0% / 1));
 }
 
 .edu-title{
@@ -259,7 +259,7 @@ main{
 
 .canvas-info{
     color: whitesmoke;
-    background-image: url(assets/bsa.png);
+    background-image: url(assets/canvas.png);
     background-size: cover;
     padding: 2rem 0 0;
     max-width: 80ch;
@@ -270,8 +270,8 @@ main{
 }
 
 .canvas-content{
-    padding: 2.15em;
-    background: linear-gradient(hsl(0 0% 0% / 0), hsl(0 0% 0% / 0.3), hsl(0 0% 0% / 1));
+    padding: 3.71em;
+    background: linear-gradient(hsl(0 0% 0% / 0), hsl(0 0% 0% / 0.5), hsl(0 0% 0% / 1));
 }
 
 .canvas-title{

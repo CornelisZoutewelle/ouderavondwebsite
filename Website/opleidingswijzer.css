@@ -50,7 +50,7 @@ nav img{
 }
 .dropbtn{
     background-color: transparent;
-    color: whitesmoke;
+    color: white;
     padding: 16px;
     font-size: 20px;
     border: none;
@@ -88,68 +88,26 @@ nav img{
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.canvas-head{
-    width: 90%;
-    color: whitesmoke;
-    position: absolute;
-    margin-top: 50px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
+.opbouw-opleiding{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
-.canvas-head h1{
-    font-size: 62px;
+.opbouw-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
 }
-.canvas-head p{
-    margin: 10px 0 40px;
-    font-size: 25px;
-    color: whitesmoke;
+.opbouw-col img{
+    width: 100%;
 }
-
-/*----- canvas Information -----*/
-
-.canvas-col{
-    color: whitesmoke;
-    background-color: #0F2B22;
-    padding: 35px;
+.opbouw-col h1{
+    font-size: 38px;
+    margin-top: 25%;
+    padding-top: 0 0 25px;
+    color:whitesmoke
 }
-.canvas-col h2{
-    max-width: 50%;
-    font-size: 30px;
-}
-.canvas-col h3{
-    max-width: 50%;
-    font-size: 20px;
-    margin-top: 18px;
-}
-.canvas-col p{
-    max-width: 50%;
-    margin-top: 15px;
-    font-size: 18px;
-}
-.canvas-col ul{
-    margin-left: 25px;
-    margin-bottom: 20px;
-}
-
-/*----- Canvas Website Link -----*/
-
-.canvas-link{
-    color: whitesmoke;
-    background-color: #004630;
-    padding: 35px;
-}
-.canvas-link h2{
-    max-width: 50%;
-    font-size: 30px;
-}
-.canvas-link p{
-    max-width: 50%;
-    margin-top: 15px;
-    font-size: 18px;
-}
-.canvas-btn{
+.opbouw-btn{
     cursor: pointer;
     display: inline-block;
     text-decoration: none;
@@ -159,6 +117,96 @@ nav img{
     padding: .5em 1.25em;
     border-radius: .25em;
     font-weight: bold;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*----- BPV Periodes -----*/
+
+.bpv-periodes{
+    background-color: #0F2B22;
+}
+.bpv{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.bpv-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.bpv-col img{
+    width: 100%;
+}
+.bpv-col h1{
+    font-size: 34px;
+    margin-top: 25%;
+    padding-top: 0 0 25px;
+    color:whitesmoke
+}
+.bpv-btn{
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: #101010;
+    background-color: #DBFF4A;
+    margin-top: 15px;
+    padding: .5em 1.25em;
+    border-radius: .25em;
+    font-weight: bold;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*----- Examens -----*/
+
+.examens{
+    background-color: #004630;
+}
+.examens-content{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.examens-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.examens-col img{
+    width: 100%;
+}
+.examens-col h1{
+    font-size: 38px;
+    margin-top: 25%;
+    padding-top: 0 0 25px;
+    color:whitesmoke
+}
+.examens-btn{
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: #101010;
+    background-color: #DBFF4A;
+    margin-top: 15px;
+    padding: .5em 1.25em;
+    border-radius: .25em;
+    font-weight: bold;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /*----- Footer -----*/

@@ -88,7 +88,7 @@ nav img{
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.canvas-head{
+.office365-head{
     width: 90%;
     color: whitesmoke;
     position: absolute;
@@ -98,58 +98,49 @@ nav img{
     transform: translate(-50%,-50%);
     text-align: center;
 }
-.canvas-head h1{
+.office365-head h1{
     font-size: 62px;
 }
-.canvas-head p{
+.office365-head p{
     margin: 10px 0 40px;
     font-size: 25px;
     color: whitesmoke;
 }
 
-/*----- canvas Information -----*/
+/*----- Office Information -----*/
 
-.canvas-col{
+.office-col{
     color: whitesmoke;
     background-color: #0F2B22;
     padding: 35px;
 }
-.canvas-col h2{
+.office-col h2{
     max-width: 50%;
     font-size: 30px;
 }
-.canvas-col h3{
-    max-width: 50%;
-    font-size: 20px;
-    margin-top: 18px;
-}
-.canvas-col p{
+.office-col p{
     max-width: 50%;
     margin-top: 15px;
     font-size: 18px;
 }
-.canvas-col ul{
-    margin-left: 25px;
-    margin-bottom: 20px;
-}
 
-/*----- Canvas Website Link -----*/
+/*----- Office Download -----*/
 
-.canvas-link{
+.office-download{
     color: whitesmoke;
     background-color: #004630;
     padding: 35px;
 }
-.canvas-link h2{
+.office-download h2{
     max-width: 50%;
     font-size: 30px;
 }
-.canvas-link p{
+.office-download p{
     max-width: 50%;
     margin-top: 15px;
     font-size: 18px;
 }
-.canvas-btn{
+.office-btn{
     cursor: pointer;
     display: inline-block;
     text-decoration: none;

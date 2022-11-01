@@ -3,8 +3,16 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: #004630;
+}
 .header{
-    min-height: 60vh;
+    min-height: 25vh;
     width: 100%;
     background-color: #004630;
     background-position: center;
@@ -88,78 +96,97 @@ nav img{
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.canvas-head{
-    width: 90%;
-    color: whitesmoke;
-    position: absolute;
+
+/*----- Formulier Informatie -----*/
+.row{
     margin-top: 50px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    margin-bottom: 50px;
+}
+form {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+}
+  
+h1 {
+    margin: 0 0 30px 0;
     text-align: center;
 }
-.canvas-head h1{
-    font-size: 62px;
+  
+input[type="text"], input[type="date"], input[type="datetime"], input[type="email"],
+input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"],
+textarea, select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
 }
-.canvas-head p{
-    margin: 10px 0 40px;
-    font-size: 25px;
-    color: whitesmoke;
+  
+select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
 }
-
-/*----- canvas Information -----*/
-
-.canvas-col{
-    color: whitesmoke;
-    background-color: #0F2B22;
-    padding: 35px;
-}
-.canvas-col h2{
-    max-width: 50%;
-    font-size: 30px;
-}
-.canvas-col h3{
-    max-width: 50%;
-    font-size: 20px;
-    margin-top: 18px;
-}
-.canvas-col p{
-    max-width: 50%;
-    margin-top: 15px;
-    font-size: 18px;
-}
-.canvas-col ul{
-    margin-left: 25px;
-    margin-bottom: 20px;
-}
-
-/*----- Canvas Website Link -----*/
-
-.canvas-link{
-    color: whitesmoke;
-    background-color: #004630;
-    padding: 35px;
-}
-.canvas-link h2{
-    max-width: 50%;
-    font-size: 30px;
-}
-.canvas-link p{
-    max-width: 50%;
-    margin-top: 15px;
-    font-size: 18px;
-}
-.canvas-btn{
-    cursor: pointer;
-    display: inline-block;
-    text-decoration: none;
+  
+.nieuws-btn {
+    padding: 19px 39px 18px 39px;
     color: #101010;
-    background-color: #DBFF4A;
-    margin-top: 15px;
-    padding: .5em 1.25em;
-    border-radius: .25em;
+    text-decoration: none;
     font-weight: bold;
+    background-color: #DBFF4A;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    border-color: #DBFF4A;;
+    width: 100%;
+    margin-left: 100px;
+    margin-bottom: 10px;
 }
+  
+fieldset {
+    margin-bottom: 30px;
+    border: none;
+}
+  
+legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+  
+label.light {
+    font-weight: 300;
+    display: inline;
+}
+  
+.number {
+    background-color: #DBFF4A;;
+    color: #101010;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 100%;
+} 
 
 /*----- Footer -----*/
 

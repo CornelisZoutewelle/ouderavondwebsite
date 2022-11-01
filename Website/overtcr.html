@@ -1,54 +1,39 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Document</title>
-
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="overtcr.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <title>School Kalender</title>
 </head>
-
-    <body>
-
-    <div class="header">
-
-        <img class="tcr" src="tcr.png">
-
+<body>
+    <section class="header">
         <nav>
-
-            <ul>
-                
-                <li><a class="headercontent" href="index.html">Home</a></li>
-
-                <li><a class="headercontent" href="opleidingswijzer.html">opleiding</a></li>
-
-                <li><a class="headercontent" href="overtcr.html">Over TCR</a></li>
-
-                <li><a class="headercontent" href="overons.html">Over ons</a></li>
-
-            
-            </ul>
-
+            <a href="index.html"><img src="assets/tcr-logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">OPLEIDING</button>
+                        <div class="dropdown-content">
+                        <a href="software.html">SOFTWARE</a>
+                        <a href="opleidingswijzer.html">OPLEIDINGSWIJZER</a>
+                    </div>
+                </div>
+                    <li><a href="overtcr.html">OVER TCR</a></li>
+                    <li><a href="OVER ONS">OVER ONS</a></li>
+                </ul>
+            </div>
         </nav>
-
-    </div>
-
+    </section>
     <section class="hero">
-
         <div class="flex-container">
-
             <div> 
                 <h2>locatiegids</h2> 
-
                 <p>
                     ALGEMENE INFORMATIE: <br>
                     Deze locatie ligt vlakbij het Zuidplein op Rotterdam-Zuid <br>
@@ -67,13 +52,11 @@
                     - Lab & Research <br>
                 </p>
             </div>
-
                 <div>
 
                     <a href="" class="button">Locatiegids PDF</a>
 
                 </div>
-
                 <div>
                     <p>
                         FACILITEITEN: <br>
@@ -85,17 +68,12 @@
                     </p>
                 </div>
             </div>
-
         </div>
-
     </section>
-
     <section>
         <div class="flex-container2">
-
             <div>
                 <h2>begeleiding</h2> 
-
                 <p>STUDIELOOPBAANBEGELEIDER: <br>
                     <p>
                     Iedere student krijgt een studieloopbaanbegeleider (SLB’er). <br>
@@ -120,13 +98,9 @@
                     </p>
                 </p> 
             </div>
-
             <div>
-
                 <a href="" class="button">Begeleiding</a>
-                
             </div>
-
             <div>
                     <p>
                         <br> STRUCTUURKLAS: <br>
@@ -139,31 +113,26 @@
                         </p>
                     </p>
             </div>
-
         </div>
-
-    
-
     </section>
-
     <section class="villain">
-
       <h1>Hier komt de link voor de locatiegids</h1>
-
     </section>
+    
+    <!----- Footer ----->
 
-    <div class="footer">
-
-        <ul>
-
-            <li>Disclaimer</li>
-            <li>TCR website</li>
-            <li>Contact</li>
-
-        </ul>
-
-    </div>
-
+    <footer>
+        <a href="index.html"><img src="assets/tcr-logo.png"></a>
+        <div class="footer-links">
+            <ul>
+                <li><a href="https://www.techniekcollegerotterdam.nl/disclaimer">DISCLAIMER</a></li>
+                <li><a href="https://www.techniekcollegerotterdam.nl/">TCR WEBSITE</a></li>
+                <li><a href="https://www.techniekcollegerotterdam.nl/contact">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>©2022 TECHNIEK COLLEGE ROTTERDAM</p>
+        </div>
+    </footer>
     </body>
-
 </html>

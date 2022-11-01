@@ -88,7 +88,7 @@ nav img{
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.canvas-head{
+.vsc-head{
     width: 90%;
     color: whitesmoke;
     position: absolute;
@@ -98,58 +98,66 @@ nav img{
     transform: translate(-50%,-50%);
     text-align: center;
 }
-.canvas-head h1{
+.vsc-head h1{
     font-size: 62px;
 }
-.canvas-head p{
+.vsc-head p{
     margin: 10px 0 40px;
     font-size: 25px;
     color: whitesmoke;
 }
 
-/*----- canvas Information -----*/
+/*----- Visual Studio Code Information Kop-1 -----*/
 
-.canvas-col{
+.vsc-col{
     color: whitesmoke;
     background-color: #0F2B22;
     padding: 35px;
 }
-.canvas-col h2{
+.vsc-col h2{
     max-width: 50%;
     font-size: 30px;
 }
-.canvas-col h3{
-    max-width: 50%;
-    font-size: 20px;
-    margin-top: 18px;
-}
-.canvas-col p{
+.vsc-col p{
     max-width: 50%;
     margin-top: 15px;
     font-size: 18px;
 }
-.canvas-col ul{
-    margin-left: 25px;
-    margin-bottom: 20px;
+
+/*----- Visual Studio Code Information Kop-2 -----*/
+
+.vsc-col2{
+    color: whitesmoke;
+    background-color: #0F2B22;
+    padding: 35px;
+}
+.vsc-col2 h2{
+    max-width: 50%;
+    font-size: 30px;
+}
+.vsc-col2 p{
+    max-width: 50%;
+    margin-top: 15px;
+    font-size: 18px;
 }
 
-/*----- Canvas Website Link -----*/
+/*----- Visual Studio Code Download -----*/
 
-.canvas-link{
+.vsc-download{
     color: whitesmoke;
     background-color: #004630;
     padding: 35px;
 }
-.canvas-link h2{
+.vsc-download h2{
     max-width: 50%;
     font-size: 30px;
 }
-.canvas-link p{
+.vsc-download p{
     max-width: 50%;
     margin-top: 15px;
     font-size: 18px;
 }
-.canvas-btn{
+.vsc-btn{
     cursor: pointer;
     display: inline-block;
     text-decoration: none;
@@ -160,7 +168,6 @@ nav img{
     border-radius: .25em;
     font-weight: bold;
 }
-
 /*----- Footer -----*/
 
 footer{

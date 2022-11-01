@@ -88,12 +88,6 @@ nav img{
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-.sticky{
-    position: sticky;
-    top: 0px;
-}
-
 .text-box{
     width: 90%;
     color: whitesmoke;
@@ -182,10 +176,11 @@ h1{
     background: rgba(219,255,74,0.7);
     cursor: pointer;
 }
-.layer h3{
+.layer a{
     width: 50%;
     font-weight: 500;
     color: #101010;
+    text-decoration: none;
     font-size: 26px;
     font-weight: 700;
     bottom: 0;
@@ -196,7 +191,7 @@ h1{
     transition: 0.5s;
 }
 
-.layer:hover h3{
+.layer:hover a{
     bottom: 49%;
     opacity: 1;
 }
