@@ -3,11 +3,8 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
-body{
-  background-color: #004630;
-}
 .header{
-  min-height: 25vh;
+  min-height: 60vh;
   width: 100%;
   background-color: #004630;
   background-position: center;
@@ -91,36 +88,46 @@ nav img{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.examen-head{
+  width: 90%;
+  color: whitesmoke;
+  position: absolute;
+  margin-top: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.examen-head h1{
+  font-size: 62px;
+}
+.examen-head p{
+  margin: 10px 0 40px;
+  font-size: 25px;
+  color: whitesmoke;
+}
 
 /*----- Content Informatie -----*/
 
-section{
-    padding: 20px;
-    height: auto;
-    background-color: #0f2b22;
-}
-
 .hero{
-    padding: 20px;
-    height: auto;
     background-color: #004630;
+    color: whitesmoke;
+    padding-bottom: 30px;
 }
 .villain{
-    padding: 20px;
-    height: auto;
+    height: 100px;
+    color: whitesmoke;
     background-color: #004630;
-    color: whitesmoke;
 }
-
-h2{
-    font-weight: bold;
+section{
     color: whitesmoke;
+    background-color: #0f2b22;
 }
 
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: #004630;
+    background-color: #0f2b22 ;
     color: whitesmoke;
   }
   
@@ -128,32 +135,23 @@ h2{
     width: 50%;
   }
 
-  .flex-container2 {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #0f2b22 ;
-    color: whitesmoke;
+  .eduartelogo img{
+    margin-left: 200px;
+    height: 250px;
   }
-  
-  .flex-container2 > div {
-    width: 50%;
-  }
-
-  .button {
-    background-color: #dbff4a;
-    border: none;
-    color: black;
-    font-weight: bold;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
+  .eduarte-btn{
+    cursor: pointer;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    border-radius: 12px;
-  }
+    text-decoration: none;
+    color: #101010;
+    background-color: #DBFF4A;
+    margin-top: 15px;
+    padding: .5em 1.25em;
+    border-radius: .25em;
+    font-weight: bold;
+}
 
-  /*----- Footer -----*/
+/*----- Footer -----*/
 
 footer{
   display: flex;

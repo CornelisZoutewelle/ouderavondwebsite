@@ -3,11 +3,8 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-body{
-    background-color: #004630;
-}
 .header{
-    min-height: 25vh;
+    min-height: 60vh;
     width: 100%;
     background-color: #004630;
     background-position: center;
@@ -91,64 +88,67 @@ nav img{
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.achtergrond{
-    background-color: #004630;
-}
-
-/*----- Kalender Informatie -----*/
-
-.kalender-container{
-    max-width: 800px;
-    margin: 0 auto;
-}
-.kalender-container h3.jaar{
-    font-size: 40px;
+.text-box{
+    width: 90%;
     color: whitesmoke;
+    position: absolute;
+    margin-top: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
-    border-bottom: 3px solid #101010;
 }
-.kalender-container .event{
-    box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
-    display: flex;
-    border-radius: 8px;
-    margin: 32px 0;
+.text-box h1{
+    font-size: 62px;
 }
-.event-links{
-    background-color: #DBFF4A;
-    min-width: 82px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #101010;
-    padding: 8px 48px;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 8px 0 0 8px;
-}
-.event-left .dag{
-    font-size: 56px;
-}
-.event-left .maand{
-    font-size: 50px;
-}
-.event-rechts{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #0F2B22;
-    border-radius: 0 8px 8px 0;
-    padding: 0 24px;
-    height: 15vh;
-    width: 80vh;
-}
-.event-rechts h3.event-titel{
+.text-box p{
+    margin: 10px 0 40px;
     font-size: 25px;
-    margin: 24px 0 10px 0;
     color: whitesmoke;
-    text-align: center;
 }
-.event-beschrijving{
+
+/*----- Main -----*/
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #0F2B22;
+}
+
+/*----- Info Card -----*/
+
+.card-info{
     color: whitesmoke;
+    background-image: url(assets/gradient.png);
+    background-size: cover;
+    padding: 2rem 0 0;
+    max-width: 80ch;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-content{
+    padding: 3.8em;
+    background: linear-gradient(hsl(0 0% 0% / 0), hsl(0 0% 0% / 0.5), hsl(0 0% 0% / 1));
+}
+
+.card-title{
+    position: relative;
+    width: max-content;
+    margin-bottom: 15px;
+}
+
+.card-title::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #DBFF4A;
 }
 
 /*----- Footer -----*/
